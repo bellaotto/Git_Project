@@ -9,3 +9,5 @@ plot(data)
 
 regression <- lm(x~y)
 regression
+
+plot(residuals(regression))
